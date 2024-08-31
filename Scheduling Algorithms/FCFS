@@ -1,1 +1,5 @@
+##First Come First Served
 
+#First Come First Served is the simplest scheduling algorithm. The ready list is a simple
+queue (first-in, first-out). The scheduler simply runs the first job on the queue until it blocks, then it runs
+the new first job, and so on. When a job becomes ready, it simply added to the end of the queue.
