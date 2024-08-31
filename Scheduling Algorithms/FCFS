@@ -1,5 +1,11 @@
 ##First Come First Served
 
 #First Come First Served is the simplest scheduling algorithm. The ready list is a simple
-queue (first-in, first-out). The scheduler simply runs the first job on the queue until it blocks, then it runs
-the new first job, and so on. When a job becomes ready, it simply added to the end of the queue.
+#queue (first-in, first-out). The scheduler simply runs the first job on the queue until it blocks, then it runs
+#the new first job, and so on. When a job becomes ready, it simply added to the end of the queue.
+
+#Main advantage of FCFS is that it is easy to write and understand
+#No starvation
+#If one process gets into an infinite loop, it will run forever and shut out all the others
+#FCFS tends to excessively favor long bursts. CPU-bound processes
+
