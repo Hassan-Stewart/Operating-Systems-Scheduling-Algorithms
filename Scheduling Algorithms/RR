@@ -1,1 +1,10 @@
+##Round Robin
 
+#Round Robin keeps all the burst in a queue and runs the first one,like FCFS.
+#But after the a length of time, q(called a quantum), if the current burst hasn't completed, it is moved to the tail 
+#of the queue and the next burst is started
+
+#
+#
+#
+#
