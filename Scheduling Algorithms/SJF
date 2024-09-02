@@ -1,1 +1,8 @@
+##Shortest Job First
 
+#Shortest Job First is a non preemptive scheduling algorithm
+#In shortest job first is has have a high throughput, low turnaround and is unfair for large jobs
+
+#Whenever the CPU has to choose a burst to run, and it chooses the shortest one
+#Preemptive version of the sjf, called shortest remaining time next
+#Starvation is possible
